@@ -81,13 +81,6 @@
                         //     unlink($target_file);
                         // }
 
-                        // Insert record
-                        // mysqli_query($con, "Insert into csvdata(ID, Title, Content, ShortDescription, Sku, Stock, RegularPrice, SalePrice, 
-                        // AttributeName_pa_bisac_codes, AttributeValue_pa_bisac_codes, AttributeInVariations_pa_bisac_codes, AttributeIsVisible_pa_bisac_codes, AttributeIsTaxonomy_pa_bisac_codes, AttributeName_pa_book_author,AttributeValue_pa_book_author, AttributeInVariations_pa_book_author, AttributeIsVisible_pa_book_author, AttributeIsTaxonomy_pa_book_author,
-                        // AttributeName_pa_copyright_year, Attribute_pa_copyright_year, Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,
-                        // Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,
-                        // Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,Attribute,
-                        // Attribute,Attribute,Attribute,Attribute,Attribute,) values( '".$ID."', '".$Title."', '".$Content."', '".$ShortDescription."', '".$Sku."', '".$Stock."', '".$RegularPrice."')");
                     }
                     echo date("h:i:sa");
                 }
