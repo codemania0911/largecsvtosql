@@ -56,9 +56,6 @@
                             $row = mysqli_fetch_assoc($retrieve_data);
                             $count = $row['allcount'];
 
-                            // if($count == 0)
-                            // {
-                                //Insert record
                                 $sql_array[] = "( '".$ID."', '".$Title."', '".$Content."', '".$ShortDescription."', '".$Sku."', '".$Stock."', '".$RegularPrice."', '".$AttributeName_pa_bisac_codes."')";
                                 
                                 if(count($sql_array) >= 1000) {
@@ -66,8 +63,6 @@
                                     mysqli_query($con, $query_single);
                                     $sql_array = array();
                                 }
-
-
                     }
                     echo date("h:i:sa");
                 }
