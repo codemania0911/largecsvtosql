@@ -67,13 +67,6 @@
                                     $sql_array = array();
                                 }
 
-                                // mysqli_query($con, "Insert into csvdata(ID, Title, Content, ShortDescription, Sku, Stock, RegularPrice, AttributeName_pa_bisac_codes) values ( '".$ID."', '".$Title."', '".$Content."', '".$ShortDescription."', '".$Sku."', '".$Stock."', '".$RegularPrice."', '".$AttributeName_pa_bisac_codes."')");
-                            // }
-                            // else
-                            // {
-                                //update record
-                                // mysqli_query($con, "update csvdata set Content = '".$Content."' where ID = '".$ID."'");
-                            // } 
 
                     }
                     echo date("h:i:sa");
