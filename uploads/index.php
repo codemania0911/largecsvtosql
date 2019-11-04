@@ -49,7 +49,6 @@
                             $RegularPrice = $data[6];
                             $AttributeName_pa_bisac_codes = $data[7];
 
-
                             //Checking entry
                             $checkUser = "Select count(*) as allcount from csvdata where ID = '".$ID."'";
                             $retrieve_data = mysqli_query($con, $checkUser);
