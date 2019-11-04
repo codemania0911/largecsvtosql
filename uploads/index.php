@@ -76,10 +76,6 @@
                             // } 
                             
 
-                        // //Delete file after import
-                        // if(file_exists($target_file)){
-                        //     unlink($target_file);
-                        // }
 
                     }
                     echo date("h:i:sa");
