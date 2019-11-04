@@ -74,8 +74,6 @@
                                 //update record
                                 // mysqli_query($con, "update csvdata set Content = '".$Content."' where ID = '".$ID."'");
                             // } 
-                            
-
 
                     }
                     echo date("h:i:sa");
