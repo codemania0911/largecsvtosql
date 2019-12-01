@@ -54,13 +54,13 @@
                             $row = mysqli_fetch_assoc($retrieve_data);
                             $count = $row['allcount'];
 
-                                $sql_array[] = "( '".$ID."', '".$Title."', '".$Content."', '".$ShortDescription."', '".$Sku."', '".$Stock."', '".$RegularPrice."', '".$AttributeName_pa_bisac_codes."')";
+                            $sql_array[] = "( '".$ID."', '".$Title."', '".$Content."', '".$ShortDescription."', '".$Sku."', '".$Stock."', '".$RegularPrice."', '".$AttributeName_pa_bisac_codes."')";
                                 
-                                if(count($sql_array) >= 1000) {
-                                    $query_single = $sql_start . implode(', ', $sql_array);
-                                    mysqli_query($con, $query_single);
-                                    $sql_array = array();
-                                }
+                            if(count($sql_array) >= 1000) {
+                                $query_single = $sql_start . implode(', ', $sql_array);
+                                mysqli_query($con, $query_single);
+                                $sql_array = array();
+                            }
                     }
                     echo date("h:i:sa");
                 }
